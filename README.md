@@ -5,7 +5,7 @@ cd
 ```
 
 ```
-git clone https://github.com/Prathamesh-Godse/server-security-scripts.git
+git clone https://github.com/Prathamesh-Godse/secure-server-scripts.git
 ```
 
 ```
