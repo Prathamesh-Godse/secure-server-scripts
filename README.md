@@ -13,5 +13,9 @@ sudo chmod -R +x secure-server-scripts
 ```
 
 ```
+cd secure-server-scripts
+```
+
+```
 ./run.sh
 ```
