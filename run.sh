@@ -21,7 +21,7 @@ STEP=1
 case "$STEP" in
     1)
         echo "Running step 1"
-        ./step1.sh
+        ./scripts/firewall.sh
         echo 2 > "$STATE_FILE"
         reboot
         ;;
