@@ -17,5 +17,5 @@ cd secure-server-scripts
 ```
 
 ```
-./run.sh
+./main.sh
 ```
