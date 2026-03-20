@@ -1,11 +1,12 @@
 [Unit]
-Description=Demo Resume Script
-After=multi-user.target
+Description=Run scripts after reboot
+After=network.target
 
 [Service]
+ExecStart=/bin/bash /home/ubuntu/master.sh
+User=root
+group=root
 Type=oneshot
-ExecStart=/home/username/demo/run.sh
-RemainAfterExit=true
 
 [Install]
 WantedBy=multi-user.target
