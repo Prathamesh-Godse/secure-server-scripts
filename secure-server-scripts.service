@@ -3,7 +3,7 @@ Description=Run scripts after reboot
 After=network.target
 
 [Service]
-ExecStart=/bin/bash /home/ubuntu/master.sh
+ExecStart=/bin/bash /home/<user>/main.sh
 User=root
 group=root
 Type=oneshot
