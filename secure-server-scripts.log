@@ -1,1 +1,122 @@
 
+2026-03-30 13:32:57 : Resetting firewall
+2026-03-30 13:32:59 : ========== UFW AUTO SCRIPT STARTED ==========
+Status: inactive
+2026-03-30 13:33:00 : UFW is INACTIVE
+2026-03-30 13:33:00 : Checking UFW status...
+Status: inactive
+2026-03-30 13:33:00 : Setting default policies...
+Default incoming policy changed to 'deny'
+(be sure to update your rules accordingly)
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+2026-03-30 13:33:00 : Allowing port: http
+Rules updated
+Rules updated (v6)
+2026-03-30 13:33:01 : Allowing port: https/tcp
+Rules updated
+Rules updated (v6)
+2026-03-30 13:33:01 : Allowing port: https/udp
+Rules updated
+Rules updated (v6)
+2026-03-30 13:33:01 : Allowing port: ssh
+Rules updated
+Rules updated (v6)
+2026-03-30 13:33:02 : Enabling UFW...
+Firewall is active and enabled on system startup
+2026-03-30 13:33:04 : Ping allowed
+2026-03-30 13:33:04 : Reloading UFW...
+Firewall reloaded
+2026-03-30 13:33:08 : Firewall configuration complete
+2026-03-30 13:33:08 : Final UFW status:
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+80/tcp                     ALLOW IN    Anywhere                  
+443/tcp                    ALLOW IN    Anywhere                  
+443/udp                    ALLOW IN    Anywhere                  
+22/tcp                     ALLOW IN    Anywhere                  
+80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+443/tcp (v6)               ALLOW IN    Anywhere (v6)             
+443/udp (v6)               ALLOW IN    Anywhere (v6)             
+22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+
+2026-03-30 13:33:29 : ========== SCRIPT 2 STARTED ==========
+2026-03-30 13:33:29 : hello 2
+2026-03-30 13:33:56 : ========== SCRIPT 3 STARTED ==========
+2026-03-30 13:33:56 : hello 3
+2026-03-30 13:36:10 : ========== UFW AUTO SCRIPT STARTED ==========
+Status: active
+
+To                         Action      From
+--                         ------      ----
+80/tcp                     ALLOW       Anywhere                  
+443/tcp                    ALLOW       Anywhere                  
+443/udp                    ALLOW       Anywhere                  
+22/tcp                     ALLOW       Anywhere                  
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+443/tcp (v6)               ALLOW       Anywhere (v6)             
+443/udp (v6)               ALLOW       Anywhere (v6)             
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+
+2026-03-30 13:36:10 : UFW is ACTIVE
+2026-03-30 13:36:10 : Checking UFW status...
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+80/tcp                     ALLOW IN    Anywhere                  
+443/tcp                    ALLOW IN    Anywhere                  
+443/udp                    ALLOW IN    Anywhere                  
+22/tcp                     ALLOW IN    Anywhere                  
+80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+443/tcp (v6)               ALLOW IN    Anywhere (v6)             
+443/udp (v6)               ALLOW IN    Anywhere (v6)             
+22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+
+2026-03-30 13:36:11 : Allowing port: http
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+2026-03-30 13:36:11 : Allowing port: https/tcp
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+2026-03-30 13:36:11 : Allowing port: https/udp
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+2026-03-30 13:36:12 : Allowing port: ssh
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+2026-03-30 13:36:12 : Reloading UFW...
+Firewall reloaded
+2026-03-30 13:36:17 : Ping allowed
+2026-03-30 13:36:17 : Reloading UFW...
+Firewall reloaded
+2026-03-30 13:36:22 : Firewall configuration complete
+2026-03-30 13:36:22 : Final UFW status:
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+80/tcp                     ALLOW IN    Anywhere                  
+443/tcp                    ALLOW IN    Anywhere                  
+443/udp                    ALLOW IN    Anywhere                  
+22/tcp                     ALLOW IN    Anywhere                  
+80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+443/tcp (v6)               ALLOW IN    Anywhere (v6)             
+443/udp (v6)               ALLOW IN    Anywhere (v6)             
+22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+
+2026-03-30 13:36:24 : ========== SCRIPT 2 STARTED ==========
+2026-03-30 13:36:24 : hello 2
+2026-03-30 13:36:47 : ========== SCRIPT 3 STARTED ==========
+2026-03-30 13:36:47 : hello 3
